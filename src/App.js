@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import {Text, View, Image, TextInput, ScrollView} from 'react-native'
 import MateriSimpleComponent from './pages/MateriSampelComponent'
 import MateriStyleComponent from './pages/MateriStyleComponent'
+import MateriFlexbox from './pages/MateriFlexbox'
 
 const App = () => {
   // return <Text>Meran</Text>
@@ -10,7 +11,8 @@ const App = () => {
     <View>
       <ScrollView>
         {/* <MateriSimpleComponent /> */}
-        <MateriStyleComponent />
+        {/* <MateriStyleComponent /> */}
+        <MateriFlexbox />
       </ScrollView>
     </View>
     
